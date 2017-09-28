@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Syncromatics.Client.Marta.Api.Models
+namespace Syncromatics.Clients.Marta.Api.Models
 {
     /// <summary>
     /// An upcoming or current arrival of a train at a station

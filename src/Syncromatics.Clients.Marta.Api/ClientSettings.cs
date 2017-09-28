@@ -1,4 +1,4 @@
-﻿namespace Syncromatics.Client.Marta.Api
+﻿namespace Syncromatics.Clients.Marta.Api
 {
     public class ClientSettings
     {

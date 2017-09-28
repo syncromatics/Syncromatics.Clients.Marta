@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Syncromatics.Client.Marta.Api\Syncromatics.Client.Marta.Api.csproj" />
+    <ProjectReference Include="..\..\src\Syncromatics.Clients.Marta.Api\Syncromatics.Clients.Marta.Api.csproj" />
   </ItemGroup>
 
 </Project>

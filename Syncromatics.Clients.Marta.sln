@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E5F55A4-221D-4EDE-A176-21A586CFDA0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7C50C78C-09AE-4F76-AB3D-3D39CAD3BD50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncromatics.Clients.Marta.Api", "src\Syncromatics.Clients.Marta.Api\Syncromatics.Clients.Marta.Api.csproj", "{CEF577B2-F2B7-4F51-96BC-5B86B74048E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncromatics.Clients.Marta.Api.Tests", "tests\Syncromatics.Clients.Marta.Api.Tests\Syncromatics.Clients.Marta.Api.Tests.csproj", "{B39327E5-D8D9-4D25-B308-011BAB87E21D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF577B2-F2B7-4F51-96BC-5B86B74048E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF577B2-F2B7-4F51-96BC-5B86B74048E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF577B2-F2B7-4F51-96BC-5B86B74048E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF577B2-F2B7-4F51-96BC-5B86B74048E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39327E5-D8D9-4D25-B308-011BAB87E21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39327E5-D8D9-4D25-B308-011BAB87E21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39327E5-D8D9-4D25-B308-011BAB87E21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39327E5-D8D9-4D25-B308-011BAB87E21D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEF577B2-F2B7-4F51-96BC-5B86B74048E1} = {6E5F55A4-221D-4EDE-A176-21A586CFDA0E}
+		{B39327E5-D8D9-4D25-B308-011BAB87E21D} = {7C50C78C-09AE-4F76-AB3D-3D39CAD3BD50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF745ECC-EEC9-4439-8832-22F82E707683}
+	EndGlobalSection
+EndGlobal

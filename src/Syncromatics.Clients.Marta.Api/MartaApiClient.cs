@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using RestEase;
-using Syncromatics.Client.Marta.Api.Models;
+using Syncromatics.Clients.Marta.Api.Models;
 
-namespace Syncromatics.Client.Marta.Api
+namespace Syncromatics.Clients.Marta.Api
 {
     /// <summary>
     /// Client for interacting with Marta's Api

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
-namespace Syncromatics.Client.Marta.Api.Tests
+namespace Syncromatics.Clients.Marta.Api.Tests
 {
     public class MartaApiClientTests
     {
