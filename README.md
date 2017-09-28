@@ -1,5 +1,5 @@
 # Metropolitan Atlanta Rapid Transit Authority (MARTA) Api Client 
-[![Build Status](https://travis-ci.org/syncromatics/Syncromatics.Client.Marta.svg?branch=feature%2Fenable-travis-builds)](https://travis-ci.org/syncromatics/Syncromatics.Client.Marta)
+[![Build Status](https://travis-ci.org/syncromatics/Syncromatics.Clients.Marta.svg?branch=feature%2Fenable-travis-builds)](https://travis-ci.org/syncromatics/Syncromatics.Clients.Marta)
 
 A .NET library to interact with the [MARTA API](http://www.itsmarta.com/app-developer-resources.aspx)
 
