@@ -8,8 +8,8 @@ dotnet: 2.0.0
 script:
   - dotnet restore
   - dotnet build
-  - dotnet test tests/Syncromatics.Client.Marta.Api.Tests
+  - dotnet test tests/Syncromatics.Clients.Marta.Api.Tests
   - "if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_TAG ]]; then 
-  dotnet pack src/Syncromatics.Client.Marta.Api --configuration Release /p:Version=$TRAVIS_TAG;
-  nuget push src/Syncromatics.Client.Marta.Api/bin/Release/*.nupkg -ApiKey $NUGET_API_KEY;
+  dotnet pack src/Syncromatics.Clients.Marta.Api --configuration Release /p:Version=$TRAVIS_TAG;
+  nuget push src/Syncromatics.Clients.Marta.Api/bin/Release/*.nupkg -ApiKey $NUGET_API_KEY;
   fi"
