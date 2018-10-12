@@ -1,6 +1,6 @@
 # Syncromatics.Clients.Marta
 
-Write a single-paragraph explanation of this project. It should describe what the software does and why it exists. Finish the paragraph with a compelling reason to use the software.
+This is a .NET library to interact with the MARTA API for getting transit arrival information in Atlanta.
 
 ## Quickstart
 
