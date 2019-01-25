@@ -23,6 +23,18 @@ Console.WriteLine($"{myStation} {nextArrival}"); //SANDY SPRINGS STATION 9 min
 [![NuGet](https://img.shields.io/nuget/v/Syncromatics.Clients.Marta.Api.svg)](https://www.nuget.org/packages/Syncromatics.Clients.Marta.Api/)
 [![NuGet Pre Release](https://img.shields.io/nuget/vpre/Syncromatics.Clients.Marta.Api.svg)](https://www.nuget.org/packages/Syncromatics.Clients.Marta.Api/)
 
+This library is built using [.NET Core](https://www.microsoft.com/net/download). To build:
+
+```
+dotnet build
+```
+
+To run the tests:
+
+```
+dotnet test
+```
+
 ## Code of Conduct
 
 We are committed to fostering an open and welcoming environment. Please read our [code of conduct](CODE_OF_CONDUCT.md) before participating in or contributing to this project.
